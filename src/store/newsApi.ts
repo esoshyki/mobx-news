@@ -52,6 +52,7 @@ type Settings = {
 
 const newsApi = new NewsAPI(process.env.REACT_APP_API_KEY ?? "");
 
+
 const locals: {
   [key in Languages]: {
     categories: {
